@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": 2,
+      "name": "Metaverse Explorer Hoodie",
+      "price": 154.99,
+      "image1": "https://i.imgur.com/YFRVFDX.jpg",
+      "image2": "https://i.imgur.com/S5WuVkN.jpg",
+      "quantity": 1
+    }
+  ],
+  "isOpen": false,
+  "cartUrl": "https://storage.googleapis.com/djt45test/carts/1748322043839-cart.json"
+}
