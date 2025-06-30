@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { CheckCircle, ShoppingBag, CreditCard, Clock, Mail, Shield } from "lucide-react"
 import Image from "next/image"
+import { Suspense } from "react"
 
 export default function SuccessPage() {
   const router = useRouter()
@@ -188,5 +189,13 @@ export default function SuccessPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export function SuccessWrapper() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SuccessPage />
+    </Suspense>
   )
 } 
